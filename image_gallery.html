@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image gallery</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        h1 {text-align: center;}
+    </style>
+</head>
+<body>
+    
+    <div class="full-img" id="fullImgBox"> 
+        <img src="image gallery/IMG1.jpg"
+        width=150px; height=250px; id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+</div>
+    <h1>Janamasthmi Images<br>at Hastsal Centre</h1>
+    <div class="image-gallery">
+        
+        <img src="image gallery/IMG1.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery/IMG2.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery/IMG4.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery/IMG5.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery/IMG7.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery/IMG8.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery/IMG9.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery/IMG10.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery/IMG12.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery/IMG13.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+    </div>
+
+
+    <h1>Image for KALP TARU campaign<br>at Hastsal Centre</h1>
+    <div class="image-gallery">
+        
+        <img src="image gallery//IMG14.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery//IMG15.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery//IMG16.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery//IMG17.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery//IMG18.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery//IMG19.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery//IMG20.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery//IMG21.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery//IMG22.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery//IMG23.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery//IMG24.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery//IMG25.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery//IMG26.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery//IMG27.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+        <img src="image gallery//IMG28.jpg " width=200px; height=300px; onclick="openFullImg(this.src)">
+    </div>
+  <script>
+var fullImgbox = document.getElementById("fullImgBox")
+var fullImg = document.getElementById("fullImg");
+function openFullImg(pic){
+    fullImgBox.style.display="flex";
+    fullImg.src=pic;
+}
+    function closeFullImg(){
+        fullImgBox.style.display="none";
+    }
+
+  </script>
+</body>
+</html>
